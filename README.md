@@ -3,7 +3,7 @@
 Brief about React :
 *React is a free and open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications*
 
-## Docker file - Create docker "Dockerfile" and store followings in it
+## Docker file - Create docker "Dockerfile" and store following detail in it
 
 > **#Stage 1**
 > 
@@ -45,4 +45,8 @@ Once docker image is created , we use following command to see all available ima
 Run the following command in the terminal to run your ReactJS Todo App in the Docker container 
 
 `$ docker run -d -it -p 80:80/tcp --name react-app m20aie287/react-app:latest`
+### Accesss site
+Once above command is executed, site can be accessed by typing URL  http://<docker machine url>:80 in the address bar.
 
+for me,  it is  http://192.168.56.1:80
+ 
